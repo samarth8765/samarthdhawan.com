@@ -64,7 +64,7 @@ const Terminal: React.FC = () => {
 
   return (
     <div>
-      <h2 className="text-white mb-4 text-4xl sm:text-5xl md:text-7xl font-bold text-center ">
+      <h2 className="text-white mb-4 text-4xl sm:text-5xl md:text-7xl font-bold text-center">
         Terminal
       </h2>
       <div
@@ -82,7 +82,6 @@ const Terminal: React.FC = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="bg-transparent flex-1 outline-none ml-2"
-            autoFocus
           />
         </form>
         <div ref={terminalRef} className="h-64 overflow-y-auto p-2">
